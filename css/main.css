@@ -1,0 +1,75 @@
+/* Головна сторінка */
+
+/* Шапка сайта */
+
+.logo {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.header-adress {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+color: var(--adress-color);
+}
+
+.header-search {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+color: var(--adress-color);
+}
+
+.header-tel {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+color: var(--adress-color);
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--main-color);
+}
+
+.header-date {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+color: var(--adress-color);
+}
+
+.menu-link {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: var(--adress-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--main-color);
+}
+
+.menu-link current {
+  color: var(--main-color);
+}
+
+/* Баннер */
+

@@ -6,33 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Serezhka</title>
   <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Montserrat:wght@300;400;500;600" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="main.css" />
-  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/normalize.css" />
 </head>
 <body>
   <!--Шапка-->
-  <header>
-    <a href="">SEREZHKA</a>
-    <p><span></span>Київ</p>
+  <header class="header">
+    <a class="logo" href="">SEREZHKA</a>
+    <p class="header-adress"><span></span>Київ</p>
     <form>
-      <input type="text" name=text  class="Search" placeholder="Пошук тут!">
-      <input type="submit" name="submit" class="submit" value="Search">
+      <input type="text" name=text  class="header-search" placeholder="Пошук!">
     </form>
-    <a href="tel:+380932410026">+38 (093) 241 - 00 - 26</a>
-    <p>Пн-Нд 10:00-20:00</p>
-    <a><span></span>Улюблене</a>
-    <a><span></span>Особистий кабінет</a>
+    <a class="header-tel" href="tel:+380932410026">38 (093) 241 - 00 - 26</a>
+    <p class="header-date">Пн-Нд 10:00-20:00</p>
+    <ul>
+    <li><a><span></span>Улюблене</a></li>
+    <li><a><span></span>Особистий кабінет</a></li>
+    </ul>
     <a><span></span>Корзина</a>
-    <nav class="menu">
-      <ul>
-        <li>Підвіски</li>
-        <li>Перстні</li>
-        <li>Сережки</li>
-        <li>Браслети</li>
-        <li>Резинки</li>
-        <li>Щось</li>
-
+    <nav>
+      <ul class="menu">
+        <li> <a class="menu-link current" href="">Підвіски</a></li>
+        <li><a class="menu-link" href="">Перстні</a></li>
+        <li><a class="menu-link" href="">Сережки</a></li>
+        <li><a class="menu-link" href="">Браслети</a></li>
+        <li><a class="menu-link" href="">Резинки</a></li>
       </ul>
     </nav>
   </header>
@@ -41,6 +40,11 @@
   <!--Баннер-->
   <section>
     <a href="">Знижки 10% на нові прикраси</a>
+    <a href="">
+      <img
+        src="./images/slide.jpg"
+        alt="Пропозиція знижки"
+      />
   </section>
 
   <!--Спеціальні пропозиції--> 
