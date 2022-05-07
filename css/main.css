@@ -71,5 +71,77 @@ color: var(--adress-color);
   color: var(--main-color);
 }
 
-/* Баннер */
+/* Спеціальні пропозиції */
 
+
+/* Популярні категорії */
+
+.heading-main {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 1.5;
+text-transform: uppercase;
+color: var(--adress-color);
+text-align: center;
+}
+
+/* Футер */
+
+.footer-newsletter {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 38px;
+line-height: 1.5;
+text-transform: uppercase;
+}
+
+.footer-list {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+
+.footer-confidentiality {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+}
+
+.heading-footer {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+color: var(--adress-color);
+}
+
+.adress-link {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--adress-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--main-color);
+}
+
+.adress-pol {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+color: var(--adress-color);
+}
