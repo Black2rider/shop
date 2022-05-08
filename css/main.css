@@ -2,6 +2,22 @@
 
 /* Шапка сайта */
 
+.page-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 37px;
+  padding-bottom: 34px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 375px;
+  margin-right: 375px;
+  align-items: center;
+}
+
 .logo {
   font-family: 'Montserrat';
   font-style: normal;
@@ -10,6 +26,27 @@
   line-height: 1.5;
   text-transform: uppercase;
   color: var(--main-color);
+  margin-right: 80px;
+}
+
+.header-adress {
+  margin-right: 50px;
+}
+
+.header-form {
+  margin-right: 60px;
+}
+
+.header-contacts {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.header-date {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header-adress {
@@ -51,6 +88,18 @@ font-weight: 400;
 font-size: 12px;
 line-height: 1.5;
 color: var(--adress-color);
+}
+
+.nav-container {
+  display: flex;
+  margin-left: 375px;
+  margin-right: 375px;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu-link {
