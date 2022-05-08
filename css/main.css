@@ -12,7 +12,7 @@
 
 .logo-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-left: 375px;
   margin-right: 375px;
   align-items: center;
@@ -92,6 +92,7 @@ color: var(--adress-color);
 
 .nav-container {
   display: flex;
+  justify-content: center;
   margin-left: 375px;
   margin-right: 375px;
   align-items: center;
@@ -99,7 +100,7 @@ color: var(--adress-color);
 
 .nav-menu {
   display: flex;
-  justify-content: space-between;
+
 }
 
 .menu-link {
@@ -109,6 +110,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 color: var(--adress-color);
+margin-left: 80px;
 }
 
 .menu-link:hover,
@@ -120,8 +122,40 @@ color: var(--adress-color);
   color: var(--main-color);
 }
 
+/* Баннер */
+
+.hero {
+  /*max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;*/
+  padding-bottom: 100px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* Спеціальні пропозиції */
 
+.propoz {
+  padding-bottom: 185px;
+}
+
+.propoz-menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.propoz-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.propoz-images {
+  border-radius: 10px;
+}
 
 /* Популярні категорії */
 
@@ -134,6 +168,7 @@ line-height: 1.5;
 text-transform: uppercase;
 color: var(--adress-color);
 text-align: center;
+margin-bottom: 40px;
 }
 
 /* Футер */
