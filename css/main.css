@@ -159,6 +159,13 @@ margin-left: 80px;
 
 /* Популярні категорії */
 
+.categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1281px;
+}
+
 .heading-main {
   font-family: 'Montserrat';
 font-style: normal;
@@ -169,6 +176,26 @@ text-transform: uppercase;
 color: var(--adress-color);
 text-align: center;
 margin-bottom: 40px;
+}
+
+.categories-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.categories-images {
+  border-radius: 10px;
+}
+
+.categories-item:not(:last-child) {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.categories-item:first-child {
+  margin-left: 30px;
 }
 
 /* Футер */
